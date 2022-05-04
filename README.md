@@ -49,7 +49,8 @@
 - Responsible for styling the HTML elements
 - HTML - Structure, CSS - Style, Layout Look
 
-### Selectors
+### CSS Selectors
+
 - Element Selectors
 - ID Selectors
 - Class Selectors
