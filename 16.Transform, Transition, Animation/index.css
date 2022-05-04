@@ -1,0 +1,190 @@
+/*
+transform : translate(), rotate(), scale(), skew(), matrix()
+
+transition : transition-property, transition-duration, transition-timing-function, transition-delay
+
+animation : animation-name, animation-duration, animation-timing-function, animation-delay, animation-iteration-count, animation-direction, animation-play-state
+
+*/
+
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+/* TRANSFORM */
+.one {
+  background-color: red;
+  transform: translateX(10px);
+}
+
+.two {
+  background-color: bisque;
+  transform: scaleX(2);
+}
+
+.three {
+  background-color: green;
+  transform: scaleY(2);
+}
+
+.rotate {
+  background-color: orange;
+  transform: rotate(45deg);
+}
+
+.skew {
+  background-color: blueviolet;
+  transform: skew(40deg);
+}
+/* TRANSITION 
+
+how the transition takes place
+transition-timing-function:
+transition: all 3s here 5s;
+ease = default
+linear = same speed start to end
+ease-in = slow start
+ease-out = slow end
+ease-in-out = slow start,  fast, slow end
+
+*/
+.five {
+  background-color: red;
+}
+
+.seven:hover {
+  background-color: blueviolet;
+  border-radius: 50%;
+}
+.seven {
+  background-color: green;
+  transition-property: background, border-radius;
+  transition-duration: 2s;
+  /* transition-delay: 3s;   delay*/
+}
+
+.six {
+  background-color: blueviolet;
+  transition: all 2s;
+}
+
+.six:hover {
+  background-color: crimson;
+  border-radius: 50%;
+}
+
+.five {
+  background-color: red;
+  transition: all 3s ease-in;
+}
+
+.five:hover {
+  background-color: gold;
+}
+
+/*********************************************/
+
+.cont {
+  min-width: 200px;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cont div {
+  width: 150px;
+  height: 150px;
+  background-color: purple;
+}
+
+.default {
+  transition: all 3s;
+}
+.default:hover {
+  transform: translateX(100px);
+}
+
+.default {
+  transition: all 3s ease;
+}
+.default:hover {
+  transform: translateX(100px);
+}
+
+.linear {
+  transition: all 3s linear;
+}
+.linear:hover {
+  transform: translateX(100px);
+}
+
+.ease-in {
+  transition: all 3s ease-in;
+}
+.ease-in:hover {
+  transform: translateX(100px);
+}
+
+.ease-out {
+  transition: all 3s ease-out;
+}
+.ease-out:hover {
+  transform: translateX(100px);
+}
+
+.ease-in-out {
+  transition: all 1s ease-in-out;
+}
+.ease-in-out:hover {
+  transform: translateX(100px);
+}
+
+/**************************************************************/
+
+/* ANIMATION */
+
+footer {
+  width: 200px;
+  height: 100px;
+  color: white;
+  margin: 10px;
+}
+
+.transition {
+  background: red;
+  transition: all 2s linear;
+}
+.transition:hover {
+  background: yellow;
+  transform: translateX(100px);
+}
+
+.animation {
+  background: blue;
+}
+
+.animation:hover {
+  /* animation-name: move;
+  animation-duration: 10s;
+  animation-iteration-count: 2; */
+  animation: move 5s infinite;
+}
+
+@keyframes move {
+  0% {
+    background: blue;
+    transform: translateX(70px);
+  }
+  50% {
+    background: red;
+    transform: translateX(160px);
+    opacity: 0; 
+  }
+  100% {
+    background: yellow;
+    transform: translateX(0px);
+  }
+}
