@@ -1,0 +1,18 @@
+h1 {
+  color: red;
+}
+body {
+  height: 100vh;
+  text-align: center;
+  background: linear-gradient(to top, orange, cyan, green, blue);
+}
+@media screen and (max-width: 500px) {
+  h1 {
+    color: orange;
+    font-size: 20px;
+  }
+
+  body {
+    background: orangered;
+  }
+}
