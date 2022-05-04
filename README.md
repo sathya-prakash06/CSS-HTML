@@ -1,6 +1,5 @@
 # CSS-HTML
 
-
 ## HTML
 
 - HTML - Hypertext Markup Language
@@ -8,7 +7,8 @@
 - Responsible for webpage structure and content
 
 #### HTML Elements
-- h1 - h6 Headings 
+
+- h1 - h6 Headings
 - p Paragraphs
 - img src=''> === image element
 - a href='' > === anchor element
@@ -43,7 +43,6 @@
 - fieldset> === fieldset element
 - title> === title element
 
-
 ## CSS - Cascading Style Sheets
 
 - Responsible for styling the HTML elements
@@ -61,3 +60,7 @@
 ### CSS Inheritance
 
 - Inheritance in CSS occurs when an inheritable property is not set on an element. It goes up in its parent chain to set the property value to its parent value. CSS properties such as height , width , border , margin , padding , etc. are not inherited.
+
+### CSS Specificity
+
+- CSS Specificity is a way to determine which style rule applies to a particular element.

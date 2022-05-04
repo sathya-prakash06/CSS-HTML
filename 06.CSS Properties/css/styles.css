@@ -71,3 +71,18 @@ body {
 }
 
 /****************************************************************/
+
+#color1 {
+  color: blueviolet;
+  background-color: chartreuse;
+}
+
+#color2 {
+  color: green;
+  background: yellow;
+}
+
+/* RGBA 0-1 OPACITY/ TRANSPARENT */
+#color3 {
+  background-color: rgba(0, 0, 0, 0.1);
+}
