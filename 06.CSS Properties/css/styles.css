@@ -58,6 +58,16 @@ h2 {
   background-color: red;
 }
 
+body {
+  font-family: monospace;
+}
+
 /****************************************************************/
 
+/* UNIVERSAL SELECTORS */
 
+* {
+  background-color: aliceblue;
+}
+
+/****************************************************************/
