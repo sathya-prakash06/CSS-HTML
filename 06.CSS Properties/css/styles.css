@@ -1,0 +1,33 @@
+/* ELEMENT SELECTOR */
+
+/* h1 {
+  color: chocolate;
+}
+
+h2 {
+  color: green;
+}
+
+p {
+  color: gray;
+} */
+
+/****************************************************************/
+
+/* GROUPING */
+/* body {
+  color: blue;
+}
+
+h1,
+h2 {
+  color: red;
+} */
+
+/****************************************************************/
+
+/* ID SELECTOR */
+
+#heading {
+  color: blueviolet;
+}

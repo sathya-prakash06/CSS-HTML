@@ -48,4 +48,11 @@
 
 - Responsible for styling the HTML elements
 - HTML - Structure, CSS - Style, Layout Look
-- 
+
+### Selectors
+- Element Selectors
+- ID Selectors
+- Class Selectors
+- Attribute Selectors
+- Pseudo-Class Selectors
+- Pseudo-Element Selectors
