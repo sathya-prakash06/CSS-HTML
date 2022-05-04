@@ -14,3 +14,17 @@ h1 {
 #fs {
   font-style: normal;
 }
+
+/* 
+line-height
+letter-spacing
+word-spacing
+text-transform
+text-decoration
+ */
+.text-styles {
+  line-height: 1.5rem;
+  letter-spacing: 5px;
+  word-spacing: 20px;
+  text-decoration: line-through;
+}
