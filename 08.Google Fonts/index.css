@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+}
+
+p {
+  font-family: "Water Brush", cursive;
+  font-weight: 700;
+  text-indent: 200px;
+}
+h1 {
+  font-family: "Oleo Script Swash Caps", cursive;
+}
+
+#fs {
+  font-style: normal;
+}
