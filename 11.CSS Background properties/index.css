@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  min-height: 100vh;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.big-img {
+  background: url("./images/smnall_img.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.small-img {
+  background: url("./images/big_img.webp");
+  background-repeat: no-repeat;
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
+  background-repeat: round;
+  background-attachment: fixed;
+}
+
+.folder-img {
+  background: url("./images/pexels-photo-11395820.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.one {
+  width: 200px;
+  height: 100px;
+  background: linear-gradient(red, green);
+}
+
+.two {
+  width: 200px;
+  height: 100px;
+  background: linear-gradient(to right, red, yellow, green);
+}
+
+.three {
+  width: 200px;
+  height: 100px;
+  background: linear-gradient(150 degree, orange, cyan, green);
+}
