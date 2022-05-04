@@ -33,3 +33,26 @@ ul li {
   margin: 10px;
   padding: 10px;
 }
+
+.cont div {
+  background: blue;
+  margin: 10px;
+  color: bisque;
+}
+.none {
+  display: none;
+}
+
+.op-1 {
+  opacity: 1;
+}
+
+.op-5 {
+  opacity: 0.5;
+}
+.op-0 {
+  opacity: 0;
+}
+.visibility {
+  visibility: hidden;
+}
