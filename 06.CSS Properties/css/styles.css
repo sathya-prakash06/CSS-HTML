@@ -30,4 +30,27 @@ h2 {
 
 #heading {
   color: blueviolet;
+  background-color: brown;
 }
+
+#subheading {
+  color: green;
+  background-color: yellow;
+}
+
+/****************************************************************/
+
+/* CLASS SELECTOR */
+.details {
+  color: blueviolet;
+  background-color: goldenrod;
+  text-transform: lowercase;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  background-color: white;
+}
+
+
+/****************************************************************/
