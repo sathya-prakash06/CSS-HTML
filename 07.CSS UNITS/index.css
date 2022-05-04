@@ -45,5 +45,13 @@ vw - width - percent of the screen
   height: 50vh;
   width: 50vw;
   background: red;
-  padding: 50px;
+}
+
+/* 
+calc()
+perforn math operations + - * /
+mix and match values
+ */
+.banner {
+  padding: calc(30px + 30px);
 }
