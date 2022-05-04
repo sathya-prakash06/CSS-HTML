@@ -44,3 +44,8 @@
 - title> === title element
 
 
+## CSS - Cascading Style Sheets
+
+- Responsible for styling the HTML elements
+- HTML - Structure, CSS - Style, Layout Look
+- 
