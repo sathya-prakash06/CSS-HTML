@@ -1,0 +1,19 @@
+* {
+  color: orangered;
+}
+
+:root {
+  background-color: beige;
+}
+
+p::after {
+  content: " HI HOW ARE YOU";
+  color: peru;
+  background: wheat;
+}
+
+p::before {
+  content: "HI HOW ARE YOU ";
+  color: blueviolet;
+  background: wheat;
+}
