@@ -57,3 +57,7 @@
 - Attribute Selectors
 - Pseudo-Class Selectors
 - Pseudo-Element Selectors
+
+### CSS Inheritance
+
+- Inheritance in CSS occurs when an inheritable property is not set on an element. It goes up in its parent chain to set the property value to its parent value. CSS properties such as height , width , border , margin , padding , etc. are not inherited.
